@@ -1,4 +1,4 @@
-/* General Reset */
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
@@ -7,7 +7,6 @@ body {
   color: #d0e6ff;
 }
 
-/* Header */
 .header {
   background-color: #112244;
   color: #d0e6ff;
@@ -23,7 +22,6 @@ body {
   border-radius: 50%;
 }
 
-/* Navigation Bar */
 .navbar {
   background-color: #101820;
   padding: 15px 0;
@@ -47,14 +45,12 @@ body {
   box-shadow: 0 0 10px #3385ff;
 }
 
-/* Wrapper Layout */
 .wrapper {
   display: flex;
   flex-wrap: wrap;
   min-height: 80vh;
 }
 
-/* Sidebar */
 .sidebar {
   width: 25%;
   background-color: #11161f;
@@ -81,7 +77,6 @@ body {
   font-weight: bold;
 }
 
-/* Main Content */
 .main-content {
   width: 75%;
   padding: 25px;
@@ -120,7 +115,6 @@ body {
   color: #d0e6ff;
 }
 
-/* Service Boxes */
 .service-box {
   background-color: #1a2233;
   border: 1px solid #2a68c1;
@@ -130,7 +124,6 @@ body {
   box-shadow: 0 4px 15px rgba(42, 104, 193, 0.2);
 }
 
-/* Footer */
 .footer {
   background-color: #112244;
   color: #d0e6ff;
@@ -147,11 +140,57 @@ body {
   border-radius: 50%;
 }
 
-/* Transition Effects */
 .navbar a,
 .sidebar a,
 .image-section img,
 button,
 .btn {
   transition: all 0.3s ease;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 204, 255, 0.2);
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #00ccff;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background: #2a2a2a;
+  color: #fff;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #aaa;
+}
+
+.contact-form button {
+  background-color: #00ccff;
+  color: #0f0f0f;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 100%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #009cb3;
 }
