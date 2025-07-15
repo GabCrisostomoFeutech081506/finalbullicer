@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Contact - My Simple Website</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - My Simple Website</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<div class="header">
-  <img src="logo.jpg" class="logo" alt="Logo">
-  <h1>Contact Us</h1>
-</div>
 
-<div class="navbar">
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="services.html">Services</a>
-  <a href="contact.html">Contact</a>
-</div>
+<header class="header">
+  <img src="./logo.jpg" class="logo" alt="Logo">
+  <h1>Contact Us</h1>
+</header>
+
+<nav class="navbar">
+  <a href="./index.html">Home</a>
+  <a href="./about.html">About</a>
+  <a href="./services.html">Services</a>
+  <a href="./contact.html">Contact</a>
+</nav>
 
 <div class="wrapper">
-  <div class="sidebar">
-    <h3>Quick Links</h3>
-    <a href="https://kemptechnologies.com/" target="_blank">Firewall Solutions</a><br>
-    <a href="https://www.avg.com/" target="_blank">Antivirus Solution</a><br>
-    <a href="https://www.aikido.dev/" target="_blank">Penetration Testing</a><br>
-    <a href="https://go.crowdstrike.com/" target="_blank">Cloud Security</a><br>
-    <a href="https://www.aikido.dev/" target="_blank">Custom Packages</a><br>
-  </div>
 
-  <div class="main-content">
+  <aside class="sidebar">
+    <h3>Quick Links</h3>
+    <a href="https://kemptechnologies.com/" target="_blank">Firewall Solutions</a>
+    <a href="https://www.avg.com/" target="_blank">Antivirus Solution</a>
+    <a href="https://www.aikido.dev/" target="_blank">Penetration Testing</a>
+    <a href="https://go.crowdstrike.com/" target="_blank">Cloud Security</a>
+    <a href="https://www.aikido.dev/" target="_blank">Custom Packages</a>
+  </aside>
+
+  <main class="main-content">
     <h2>Get In Touch</h2>
     <form action="https://formsubmit.co/gabicrisph@gmail.com" method="POST" class="contact-form">
       <label for="name">Full Name:</label>
@@ -42,13 +45,15 @@
 
       <button type="submit">Send Message</button>
     </form>
-  </div>
+  </main>
+
 </div>
 
-<div class="footer">
-  <img src="logo.jpg" class="logo" alt="Logo">
+<footer class="footer">
+  <img src="./logo.jpg" class="logo" alt="Logo">
   <p>Web Designer: Crisostomo, Gabrielle S.</p>
   <p>Email: gabicrisph@gmail.com</p>
-</div>
+</footer>
+
 </body>
 </html>
